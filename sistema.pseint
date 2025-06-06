@@ -1,0 +1,17 @@
+Funcion edad (mayordeedad)
+	resultado<-es >=18
+	Escribir "bienvenido: ",resultado
+Fin Funcion
+
+Algoritmo sistema
+	Escribir "ingrese su nombre: "
+	leer nombre
+	Escribir "ingrese la operacion edad: "
+	leer operacion 
+	Si operacion>=18 Entonces
+		Escribir "bienvenido: ", nombre
+	SiNo
+		escribir "usted es menor de edad"
+	Fin Si
+	
+FinAlgoritmo

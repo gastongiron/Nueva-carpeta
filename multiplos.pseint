@@ -1,0 +1,18 @@
+Funcion mostrar_multiplos(numero)
+	Para i <- 1 Hasta 10 Con Paso 1
+		Escribir i, " x ", numero, " = ", i * numero
+	FinPara
+FinSubProceso
+Algoritmo multiplos
+	Definir numero, i Como Entero
+	Escribir "Ingrese un número entero positivo:"
+	Leer numero
+	
+	Si numero > 0 Entonces
+		
+		mostrar_multiplos(numero)
+	SiNo
+		Escribir "El número debe ser positivo."
+	FinSi
+	
+FinAlgoritmo

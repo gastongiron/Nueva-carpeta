@@ -1,0 +1,20 @@
+Proceso validar_contrasena
+	
+	 solicitar_contrasena
+FinProceso
+
+SubProceso solicitar_contrasena
+	Definir contrasena Como Cadena
+	contrasena <- ""
+	
+	Mientras contrasena <> "freyre2025" Hacer
+		Escribir "Ingrese la contraseña:"
+		Leer contrasena
+		
+		Si contrasena <> "freyre2025" Entonces
+			Escribir "Contraseña incorrecta. Intente nuevamente."
+		FinSi
+	FinMientras
+	
+	Escribir "Acceso permitido."
+FinSubProceso
